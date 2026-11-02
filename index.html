@@ -97,7 +97,7 @@
 <header>
   <span class="mark" aria-hidden="true"></span>
   <h1>Skill Gauntlet — Privacy Policy</h1>
-  <p>Effective October 25, 2026</p>
+  <p>Effective November 2, 2026</p>
 </header>
 <main>
 
@@ -122,9 +122,10 @@ to any server we operate — we don't operate one:</p>
 <ul>
   <li>Your highest level reached, and your best results in the Daily Challenge and Weekly Gauntlet</li>
   <li>Your records: how many full runs you've completed in each mode, when you first cleared all 100 levels, and which Daily Challenge and Weekly Gauntlet you last fully cleared</li>
-  <li>Leaderboard scores waiting to be sent, if they couldn't be sent yet (for example, while offline)</li>
+  <li>Leaderboard scores waiting to be sent, if they couldn't be sent yet (for example, while offline), and your best score on each leaderboard</li>
+  <li>Your rewards calendar: how many days you've played, the last day counted, your saved revives, and which cosmetics you've chosen</li>
+  <li>Which Google Play Games account each set of progress belongs to (its player ID), so that each account you sign in with keeps its own progress</li>
   <li>Sound and haptics on/off preferences</li>
-  <li>Small counters tracking your daily use of the "watch an ad to continue" feature</li>
 </ul>
 <p>This data is removed automatically if you uninstall the App, or
 manually if you clear the App's storage from your device's system
@@ -134,14 +135,17 @@ settings.</p>
 <p>If you choose to view or submit to leaderboards, the App uses <a
 href="https://developers.google.com/games/services" target="_blank"
 rel="noopener">Google Play Games Services</a>, tied to your Google
-account. When you do, the App submits up to five scores, associated with
+account. When you do, the App submits up to six scores, associated with
 your Google Play Games profile:</p>
 <ul>
   <li>Your highest level ever reached</li>
   <li>When you first cleared all 100 levels (the Hall of Fame)</li>
   <li>When you fully cleared the current Daily Challenge, and the current Weekly Gauntlet</li>
   <li>How many full runs you've completed, with the count for each mode</li>
+  <li>How many days you've played, and the date of the last day counted (not shown in the App; it lets a reinstall restore your rewards calendar without counting the same day twice)</li>
 </ul>
+<p>Each score also carries your current badge from the rewards calendar,
+so other players see it next to your name on the leaderboards.</p>
 <p>When you sign in, the App also reads your own scores back, so your
 records return after a reinstall. We never see or store this data
 ourselves; it's held and displayed entirely by Google Play Games
@@ -155,11 +159,13 @@ otherwise, just without leaderboards.</p>
 <p>Some parts of the App depend on the real date and time, which must not
 depend on your phone's own clock: which Daily Challenge and Weekly
 Gauntlet are current, the time a leaderboard clear is stamped with
-(including clearing all 100 levels), and which leaderboard entries are
-today's. For these, the App asks a public time server (Google's
+(including clearing all 100 levels), which leaderboard entries are
+today's, and whether today counts as a new day on your rewards calendar.
+For these, the App asks a public time server (Google's
 <code>time.google.com</code>) for the current time, using the standard
-NTP protocol — when you open the Daily Challenge, the Weekly Gauntlet or
-the leaderboards, and when a clear needs its time stamped. The request
+NTP protocol — when you open the App or return to it, when you open the
+Daily Challenge, the Weekly Gauntlet or the leaderboards, and when a clear
+needs its time stamped. The request
 carries no information about you or your device; like any internet
 request, it reaches the server from your IP address. This is why the
 Daily Challenge and Weekly Gauntlet need an internet connection. The main
